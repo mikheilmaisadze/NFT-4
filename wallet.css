@@ -1,0 +1,219 @@
+
+@font-face {
+    font-family: "work";
+    src: url("WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "mono";
+    src: url("SpaceMono-Regular.ttf");
+}
+
+* {
+    color: #fff !important;
+   text-transform: capitalize;
+   font-family: "work";
+}
+
+/* media start -------------- */
+
+@media screen and (max-width: 990px) {
+
+    .space-ship {
+        height: 232px !important;
+        background-image: url("Image\ Placeholder\ \(19\).png") !important;
+       
+    }
+    
+    .joker > div {
+        width: 100% !important;
+        height: 60px !important;
+        border: 2px solid #A259FF;
+        background-color: #3B3B3B;
+        border-left: 2px solid #A259FF;
+        border-right: 2px solid #A259FF;
+    }
+    
+    
+    .joker h1 {
+        margin-top: 30px !important;
+        font-size: 38px !important;
+        font-weight: 600 !important;
+    }
+    
+    .joker p {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        text-transform: none;
+    }
+    
+    .joker h3 {
+        margin-inline-start: 20px;
+        font-size: 22px;
+        font-weight: 600 !important;
+        font-family: "work";
+    }
+
+    .envelop {
+        height: 46px !important;
+        font-size: 16px !important;
+    }
+
+} 
+
+@media screen and (min-width: 1500px) {
+
+   footer .container-p  {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #footer-between {
+        justify-content: space-between !important;
+    }
+
+   div .h-rule {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+   } 
+
+   div + .template {
+    
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+   }
+    
+}
+
+
+/*--------------- media end */
+
+body {
+    background-color: #2B2B2B !important;
+}
+
+
+
+nav ul li a {
+    font-weight: 600 !important;
+}
+
+nav ul li button {
+    height: 60px !important;
+    background-color: #A259FF;
+    width: 152px;
+}
+
+nav ul li button:hover {
+    opacity: 0.7;
+}
+
+
+
+nav a {
+    position: relative;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(233, 214, 214) !important;
+}
+
+nav .href-1::after {
+    content: "";
+    position: absolute;
+    background-color: #A259FF;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.href-1:hover::after {
+    width: 100%;
+}
+
+.space-ship {
+    height: 642px;
+    background-image: url("Image\ Placeholder\ \(17\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+footer {
+    background-color: #3B3B3B;
+}
+
+footer p, h1, h2, h3, h4, h5, h6 {
+    font-family: "mono" !important;
+    background-color: transparent !important;
+}
+
+.template {
+    font-size: 12px !important;
+}
+
+footer input {
+    height: 60px;
+}
+
+footer button {
+    background-color: #A259FF;
+    height: 60px !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+}
+
+.footer-2 input, button {
+  height: 46px !important;
+}
+
+.footer-2 p {
+    font-size: 16px;
+    font-weight: 400 !important;
+}
+
+.footer-2 h4 {
+    font-size: 22px;
+    font-weight: 700 !important;
+}
+
+.joker > div {
+    width: 320px;
+    height: 72px;
+    border: 2px solid #A259FF;
+    background-color: #3B3B3B;
+    border-left: 2px solid #A259FF;
+    border-right: 2px solid #A259FF;
+}
+
+
+.joker h1 {
+    margin-top: 100px;
+    font-size: 51px;
+    font-weight: 600 !important;
+}
+
+.joker p {
+    font-size: 22px;
+    font-weight: 400 !important;
+    text-transform: none;
+}
+
+.joker h3 {
+    margin-inline-start: 20px;
+    font-size: 22px;
+    font-weight: 600 !important;
+    font-family: "work";
+}
+
+
+  
